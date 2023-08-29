@@ -87,9 +87,6 @@ export default function BasicGrid() {
     </Box>
   );
 }
-<<<<<<< Updated upstream
 
     
   
-=======
->>>>>>> Stashed changes
