@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.grid-container {
+  display: grid;
+  /* Define your grid properties here, like grid-template-columns, grid-gap, etc. */
+}
+
+.Item {
+  
+  grid-row: 1 / -1;    /* Span across all rows of the grid */
+}

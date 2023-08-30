@@ -13,9 +13,9 @@ export default function CartButton() {
   );
 }
 
-export  function OfferButton() {
+export function OfferButton() {
     return (     
-      <Button variant="contained" startIcon={<LocalOfferIcon />}>
+      <Button variant="contained" startIcon={<LocalOfferIcon/>}>
         Offer
       </Button>      
     );
@@ -23,7 +23,7 @@ export  function OfferButton() {
 
   export  function BuyButton() {
     return (
-      <Button variant="contained" startIcon={< MonetizationOnIcon/>}>
+      <Button variant="contained" startIcon={<MonetizationOnIcon/>}>
         Buy
       </Button>     
     );
